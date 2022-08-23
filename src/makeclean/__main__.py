@@ -3,7 +3,7 @@ import click
 from . import __version__, clean
 
 
-@click.command()
+@click.command
 @click.help_option("--help", "-h")
 @click.option("--verbose", "-v", is_flag=True, default=False)
 @click.option("--version", "-V", is_flag=True, default=False)
